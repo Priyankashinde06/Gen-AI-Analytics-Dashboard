@@ -19,15 +19,16 @@ A modern, AI-powered analytics dashboard for visualizing product sales, revenue,
 ⚡ Mock AI Backend – Simulates real-time data processing.
 
 🚀 Tech Stack
-Frontend: React, Redux Toolkit
 
-Styling: Tailwind CSS
+  Frontend: React, Redux Toolkit
 
-Charts: Chart.js, react-chartjs-2
+  Styling: Tailwind CSS
 
-State Management: Redux
+  Charts: Chart.js, react-chartjs-2
 
-Hosting: Vercel
+  State Management: Redux
+
+  Hosting: Vercel
 
 
 🛠️ Installation & Setup
