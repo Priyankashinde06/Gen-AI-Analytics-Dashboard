@@ -1,14 +1,96 @@
 @import "tailwindcss";
 
 body {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);
   min-height: 100vh;
+  color: white;
 }
 
-@keyframes gradient {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.2);
+  border-radius: 3px;
+}
+
+.results-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.loading {
+  padding: 20px;
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}
+
+.no-results {
+  padding: 20px;
+  text-align: center;
+  color: #999;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.results-table th, .results-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.results-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.alert-row {
+  background-color: #fff3f3;
+}
+
+.inventory-alerts {
+  background-color: #fff8e6;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-left: 4px solid #ffc107;
+}
+
+.profit-summary {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f0f9ff;
+  border-left: 4px solid #2196f3;
+}
+
+@media (max-width: 768px) {
+  .results-table thead {
+      display: none;
+  }
+  
+  .results-table tr {
+      display: block;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+  }
+  
+  .results-table td {
+      display: flex;
+      justify-content: space-between;
+      text-align: right;
+      padding-left: 50%;
+      position: relative;
+  }
+  
+  .results-table td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 15px;
+      font-weight: bold;
+  }
 }

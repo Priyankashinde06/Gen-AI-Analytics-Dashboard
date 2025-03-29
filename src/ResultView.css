@@ -1,0 +1,91 @@
+.results-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.loading, .no-results {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    margin-top: 15px;
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.results-table th {
+    background-color: #f5f5f5;
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+}
+
+.results-table td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.results-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.alert-row {
+    background-color: #fff8f8;
+}
+
+.alert-row:hover {
+    background-color: #ffebeb;
+}
+
+.status-badge {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.status-badge.good {
+    background-color: #e6f7e6;
+    color: #2e7d32;
+}
+
+.status-badge.warning {
+    background-color: #fff3e0;
+    color: #d84315;
+}
+
+/* Specific column styling */
+.profit, .profitimpact, .revenue {
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.margin, .growth {
+    color: #0288d1;
+}
+
+.rating, .satisfaction {
+    color: #ff8f00;
+}
+
+.returns {
+    color: #c62828;
+}

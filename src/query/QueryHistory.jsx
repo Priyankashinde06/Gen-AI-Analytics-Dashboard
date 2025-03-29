@@ -30,7 +30,7 @@ export const QueryHistory = () => {
           <p className="text-gray-400">Your product queries will appear here</p>
         </div>
       ) : (
-        <div className="space-y-3 max-h-96 overflow-y-auto pr-2 custom-scrollbar">
+        <div className="space-y-3 max-h-127 overflow-y-auto pr-2 custom-scrollbar">
           {history.map((item, index) => (
             <div 
               key={index} 

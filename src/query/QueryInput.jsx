@@ -4,12 +4,12 @@ import { setInput, submitQuery, submitQuerySuccess, submitQueryFailure } from '.
 import { processQuery } from '../services/MockAiServices';
 
 const PRODUCT_SUGGESTIONS = [
-  "Show top selling products",
-  "Compare product performance",
-  "Product revenue last quarter",
-  "Worst performing products",
-  "Product sales by category",
-  "Product inventory levels"
+  "Show sales with profit and margin",
+  "View inventory with profit impact",
+  "Products by category with financials",
+  "Full product analysis with all metrics",
+  "Low stock items with financial impact",
+  "High margin products by region"
 ];
 
 export const QueryInput = () => {

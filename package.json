@@ -1,5 +1,5 @@
 {
-  "name": "assisment",
+  "name": "dashboard-for-gen-ai-analystic-tool",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -17,13 +17,9 @@
     "@reduxjs/toolkit": "^2.6.1",
     "@tailwindcss/vite": "^4.0.17",
     "chart.js": "^4.4.8",
-    "chartjs-plugin-datalabels": "^2.2.0",
-    "chartjs-plugin-deferred": "^2.0.0",
-    "framer-motion": "^12.6.2",
     "react": "^19.0.0",
     "react-chartjs-2": "^5.3.0",
     "react-dom": "^19.0.0",
-    "react-feather": "^2.0.10",
     "react-redux": "^9.2.0",
     "tailwindcss": "^4.0.17"
   },
