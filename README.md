@@ -3,6 +3,7 @@ Gen AI Analytics Dashboard
 A modern, AI-powered analytics dashboard for visualizing product sales, revenue, and inventory data. Built with React, Redux, and Tailwind CSS, this application allows users to query datasets and view interactive visualizations with ease.
 
 🔗 Live Demo: https://gen-ai-analytics-dashboard-umzr.vercel.app/
+
 📂 GitHub Repo: https://github.com/Priyankashinde06/Gen-AI-Analytics-Dashboard
 
 ✨ Features
