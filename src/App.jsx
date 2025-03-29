@@ -1,9 +1,9 @@
 
 import { Provider } from 'react-redux';
 import { store } from './store/store';
-import { QueryInput } from './features/query/queryInput';
-import { ResultsView } from './features/query/ResultsView';
-import { QueryHistory } from './features/query/QueryHistory';
+import { QueryInput } from './query/QueryInput';
+import { ResultsView } from './query/ResultsView';
+import { QueryHistory } from './query/QueryHistory';
 
 function App() {
   return (
