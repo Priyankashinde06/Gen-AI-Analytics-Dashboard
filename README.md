@@ -7,10 +7,15 @@ A modern, AI-powered analytics dashboard for visualizing product sales, revenue,
 📂 GitHub Repo: https://github.com/Priyankashinde06/Gen-AI-Analytics-Dashboard
 
 ✨ Features
+
 ✅ Smart Query Suggestions – AI-powered autocomplete for product-related queries.
+
 📊 Interactive Charts – Dynamic Bar & Line graphs (Chart.js) with dark/light mode.
+
 ⏳ Query History – Track past searches with timestamps and result summaries.
+
 🎨 Modern UI – Sleek gradients, animations, and responsive design.
+
 ⚡ Mock AI Backend – Simulates real-time data processing.
 
 🚀 Tech Stack
