@@ -20,25 +20,29 @@ A modern, AI-powered analytics dashboard for visualizing product sales, revenue,
 
 🚀 Tech Stack
 
-  Frontend: React, Redux Toolkit
+    Frontend: React, Redux Toolkit
 
-  Styling: Tailwind CSS
+    Styling: Tailwind CSS
 
-  Charts: Chart.js, react-chartjs-2
+    Charts: Chart.js, react-chartjs-2
 
-  State Management: Redux
+    State Management: Redux
 
-  Hosting: Vercel
+    Hosting: Vercel
 
 
 🛠️ Installation & Setup
 
 1.Clone the repository :
-git clone https://github.com/Priyankashinde06/Gen-AI-Analytics-Dashboard.git
-cd Gen-AI-Analytics-Dashboard
+
+    git clone https://github.com/Priyankashinde06/Gen-AI-Analytics-Dashboard.git
+
+    cd Gen-AI-Analytics-Dashboard
 
 2.Install dependencies
-npm install
+
+    npm install
 
 3.Run the development server
-npm run dev
+
+    npm run dev
